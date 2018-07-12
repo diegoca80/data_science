@@ -1,0 +1,122 @@
+{
+	"layout": "GICCadastro",
+	"record_types": {
+		"01": [
+			{
+				"cpf_cnpj": [
+					15,
+					"CPF_CNPJ"
+				],
+				"person_name": [
+					30,
+					"PERSON_NAME"
+				],
+				"data_registro": [
+					8,
+					"DATE"
+				],
+				"document_type": [
+					2,
+					"DOMAIN",
+					["RG", "RN", "IT"]
+				],
+				"numeric_id": [
+					10,
+					"NUMERIC"
+				],
+				"status": [
+					2,
+					"STATUS"
+				],
+				"brancos": [
+					25,
+					"BRANCOS"
+				]
+			}
+		],
+		"02": [
+			{
+				"amount": [
+					8,
+					"DECIMAL"
+				],
+				"company_name": [
+					30,
+					"COMPANY_NAME"
+				],
+				"data_reference": [
+					8,
+					"DATE"
+				],
+				"status": [
+					2,
+					"STATUS"
+				],
+				"brancos": [
+					25,
+					"BRANCOS"
+				]
+			}
+		],
+		"TD": [
+			{
+				"cpf_cnpj": [
+					15,
+					"CPF_CNPJ"
+				],
+				"documento": [
+					10,
+					"UNSIGNED"
+				],
+				"name": [
+					15,
+					"NAME"
+				],
+				"data_documento": [
+					8,
+					"DATE"
+				],
+				"status": [
+					2,
+					"STATUS"
+				],
+				"brancos": [
+					25,
+					"BRANCOS"
+				]
+			}
+		],
+		"TE": [
+			{
+				"street_address": [
+					25,
+					"ADDRESS"
+				],
+				"complement": [
+					10,
+					"ADDRESS_2"
+				],
+				"state": [
+					25,
+					"STATE"
+				],
+				"city": [
+					30,
+					"CITY"
+				],
+				"data_mudanca": [
+					8,
+					"DATE"
+				],
+				"status": [
+					2,
+					"STATUS"
+				],
+				"brancos": [
+					25,
+					"BRANCOS"
+				]
+			}
+		]
+	}
+}
